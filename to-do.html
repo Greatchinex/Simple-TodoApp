@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bulma Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="webfonts/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/to-do.css">
+    <title>To-do App</title>
+</head>
+<body>
+    <div class="container section1">
+        <div class="block">
+            <h2 class="subtitle is-size-3 has-text-centered heading">
+                <i class="fas fa-tasks has-text-success"></i> Task <span class="has-text-info">Scheduler</span> 
+            </h2>
+        </div>
+    </div>
+
+
+ <div class="container section2">
+    <div class="block">
+        <div class="field" id="section2">
+            
+            <label class="label" id="label-1">Enter task:</label>
+            <div class="columns">
+                <div class="column is-10">
+                    <textarea class="textarea" placeholder="Enter a Task" id="text"></textarea>
+                </div>
+            </div>
+
+            <label class="label">Select Date:</label>
+            <input type="date" name="select-date" id="date"> <br>
+
+            <button class="button is-success is-medium is-fullwidth" id="submit">Submit</button>
+
+        </div>    <!-- field div -->
+        <hr>
+    </div>    <!-- block div -->
+</div>     <!-- container div -->
+
+
+
+<div class="container" id="section3">
+  
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/to-do.js"></script>
+</body>
+</html>
